@@ -43,14 +43,14 @@ A simple expandable/collapsible component for react native using react-native-re
 ### Properties
 |     Prop     |  Description | Default Value | Required
 | :---         | :---         | :---          | :---
-| initialToggle | Whether or not to start the expandable component expanded. true: collapsed, false: expanded | false | - [x]
-| titleComponent | Component that will be rendered in the title section | None | - [x]
-| titleContainerPaddingHorizontal | Horizontal padding for the title contaier | 15 | - [ ]
-| titleContainerPaddingVertical | Vertical padding for the title contaier | 15 | - [ ]
-| iconComponent | Component that will be rendered in the icon section | None | - [x]
-| separator | Whether or not to draw a separator line below the content | true | - [x]
-| separatorColor | Color for the separator line | black | - [ ]
-| separatorHeight | Height for the separator line | 1 | - [ ]
-| separatorMargin | Bottom margin for the separator line when the content is expanded | 5 | - [ ]
-| initialRotation | Initial Z rotation of the icon in degrees | 0 |  - [ ]
-| finalRotation | Final Z rotation of the icon in degrees | 90 |  - [ ]
+| initialToggle | Whether or not to start the expandable component expanded. true: collapsed, false: expanded | false | Yes
+| titleComponent | Component that will be rendered in the title section | None | Yes
+| titleContainerPaddingHorizontal | Horizontal padding for the title contaier | 15 | No
+| titleContainerPaddingVertical | Vertical padding for the title contaier | 15 | No
+| iconComponent | Component that will be rendered in the icon section | None | Yes
+| separator | Whether or not to draw a separator line below the content | true | Yes
+| separatorColor | Color for the separator line | black | No
+| separatorHeight | Height for the separator line | 1 | No
+| separatorMargin | Bottom margin for the separator line when the content is expanded | 5 | No
+| initialRotation | Initial Z rotation of the icon in degrees | 0 |  No
+| finalRotation | Final Z rotation of the icon in degrees | 90 |  No
