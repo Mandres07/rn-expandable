@@ -1,0 +1,44 @@
+{
+  "name": "rn-expandable",
+  "version": "1.0.0",
+  "description": "A simple react native expandable component with title, icon and content / Un componente expandible de react native que contiene titulo, icono y el contenido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandres07/rn-expandable.git"
+  },
+  "keywords": [
+    "react-native",
+    "rn",
+    "expandable",
+    "collapsible",
+    "ios",
+    "android",
+    "expo",
+    "ui"
+  ],
+  "author": "Mario Andrés Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mandres07/rn-expandable/issues"
+  },
+  "homepage": "https://github.com/Mandres07/rn-expandable#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "^1.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
+    "prop-types": "^15.7.2",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "^1.13.1"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.63.0"
+  }
+}
