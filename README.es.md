@@ -1,6 +1,6 @@
 # rn-expandable
 
-Un componente expandible para react native utilizando react-native-reanimated.
+Un componente simple expandible/colapsable para react native utilizando react-native-reanimated.
 
 ## English README
 [English](https://github.com/Mandres07/rn-expandable/)
