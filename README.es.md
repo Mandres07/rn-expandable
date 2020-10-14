@@ -1,20 +1,20 @@
 # rn-expandable
 
-A simple expandable/collapsible component for react native using react-native-reanimated.
+Un componente expandible para react native utilizando react-native-reanimated.
 
-## Spanish README
-[Leeme en español](https://github.com/Mandres07/rn-expandable/blob/main/README.es.md)
+## English README
+[English](https://github.com/Mandres07/rn-expandable/)
 
-## Installation
+## Instalación
 
 `$ npm i rn-expandable`
 
-## Usage
+## Uso
 
 ### Import
 `import { RNExpandable } from 'rn-expandable';`
 
-### Declarative Usage
+### Como declararlo en JSX
 ```
 <RNExpandable 
    separator={true}
@@ -40,17 +40,17 @@ A simple expandable/collapsible component for react native using react-native-re
 </RNExpandable>
 ```
 
-### Properties
-|     Prop     |  Description | Default Value | Required
+### Propiedades
+| Propiedad | Descripción | Valor por defecto | Requerido
 | :---         | :---         | :---          | :---
-| initialToggle | Whether or not to start the expandable component expanded. true: collapsed, false: expanded | false | Yes
-| titleComponent | Component that will be rendered in the title section | None | Yes
-| titleContainerPaddingHorizontal | Horizontal padding for the title contaier | 15 | No
-| titleContainerPaddingVertical | Vertical padding for the title contaier | 15 | No
-| iconComponent | Component that will be rendered in the icon section | None | Yes
-| separator | Whether or not to draw a separator line below the content | true | Yes
-| separatorColor | Color for the separator line | black | No
-| separatorHeight | Height for the separator line | 1 | No
-| separatorMargin | Bottom margin for the separator line when the content is expanded | 5 | No
-| initialRotation | Initial Z rotation of the icon in degrees | 0 |  No
-| finalRotation | Final Z rotation of the icon in degrees | 90 |  No
+| initialToggle | Indica si el componente estara expandido o replegado al inicio. true = replegado, false = espandido | false | Si
+| titleComponent | Componente que se renderizará como título | Ninguno | Si
+| titleContainerPaddingHorizontal | Padding horizontal para el contenedor del título | 15 | No
+| titleContainerPaddingVertical | Padding vertical para el contenedor del título | 15 | No
+| iconComponent | Componente que se renderizará como icono | Ninguno | Si
+| separator | Indica si se debe dibujar el separador al final del contenido | true | Si
+| separatorColor | Color para la línea del separador | black | No
+| separatorHeight | Altura o grosor para la línea del separador | 1 | No
+| separatorMargin | Margen de abajo del separador para cuando el contenido esté expandido | 5 | No
+| initialRotation | Rotación inicial en el eje Z del icono, en grados | 0 |  No
+| finalRotation | Rotación final en el eje Z del icono, en grados | 90 |  No
