@@ -1,6 +1,6 @@
 {
   "name": "rn-expandable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple react native expandable component with title, icon and content / Un componente expandible de react native que contiene titulo, icono y el contenido",
   "main": "index.js",
   "scripts": {
