@@ -1,6 +1,6 @@
 {
   "name": "rn-expandable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple react native expandable component with title, icon and content / Un componente expandible de react native que contiene titulo, icono y el contenido",
   "main": "index.js",
   "scripts": {
@@ -33,10 +33,7 @@
   },
   "peerDependencies": {
     "react": "^16.13.1",
-    "react-native": "^0.63.2",
-    "prop-types": "^15.7.2",
-    "react-native-gesture-handler": "~1.7.0",
-    "react-native-reanimated": "^1.13.1"
+    "react-native": "^0.63.2"
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.63.0"
